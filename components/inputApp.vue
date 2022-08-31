@@ -4,13 +4,13 @@
     <div class="relative">
       <v-text-field
         v-model="value"
-        solo
         :name="name"
-        required
         height="66px"
         :placeholder="placeholder"
         :rules="valueRules"
         class="lg:w-[284px] rounded-full md:w-[500px] sm:w-[400px] xs:w-[300px] sml:w-[400px] smx:w-[280px] w-full"
+        outlined
+        required
         @change="handleChange()"
       >
       </v-text-field>

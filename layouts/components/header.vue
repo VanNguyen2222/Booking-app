@@ -1,8 +1,10 @@
 <template>
   <div
-    class="h-[126px] w-full lg:px-[99px] flex sm:justify-between sx:justify-center items-center sm:flex-row flex-col"
+    class="h-[126px] w-full lg:px-[99px] px-[20px] flex sm:justify-between smx:justify-center items-center sm:flex-row flex-col"
   >
-    <LogoApp logo-class="w-[304px] h-[40px]"></LogoApp>
+    <div class="xs:w-[304px] h-[40px] w-full">
+      <LogoApp logo-class="w-full h-full"></LogoApp>
+    </div>
     <ButtonApp
       title="Clone now"
       btn-class="h-[49px] w-[171px] bg-[#4A3AFF] text-[#ffffff]"

@@ -1,9 +1,7 @@
 <template>
   <v-app>
     <HeaderApp></HeaderApp>
-    <div
-      class="flex flex-col justify-center items-center m-auto w-[700px] mt-[51px] mb-[100px]"
-    >
+    <div class="justify-center items-center m-auto mt-[51px] mb-[100px]">
       <FormBooking></FormBooking>
     </div>
     <FooterApp></FooterApp>
